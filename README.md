@@ -30,18 +30,18 @@ More in `example-meson-cppx-gtk`
 # cppxgtk docs
 **Order of attributes is important!!**
 
-## <Window> - creates GTK window
+## Window - creates GTK window
 ### title="Some title"
 ### width="300"
 ### height="300"
 
-## <View> - container for elements (based on GtkBox)
+## View - container for elements (based on GtkBox)
 ### orientation="vertical/horizontal"
 **Default orientation is vertical**
 
-## <Text> - text
-### <Text>some text</Text>
+## Text - text
+``` <Text>some text</Text> ```
 
-## <Button> - button
+## Button - button
 ### onClick={onButtonClick}
-### <Button ...>Some button label</Button>
+```<Button ...>Some button label</Button>```
